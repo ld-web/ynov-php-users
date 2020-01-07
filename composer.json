@@ -1,0 +1,11 @@
+{
+    "name": "ynov/users_composer",
+    "description": "PHP7 App w/ Composer",
+    "authors": [
+        {
+            "name": "Lucas Delobelle",
+            "email": "lucas@ld-web.net"
+        }
+    ],
+    "require": {}
+}
