@@ -3,8 +3,7 @@ require '../vendor/autoload.php';
 
 use App\Db\Db;
 
-$db = new Db();
-$connection = $db->getPdoInstance();
+$connection = Db::getPdoInstance();
 
 $query = "SELECT * FROM users";
 $res = $connection->query($query);
